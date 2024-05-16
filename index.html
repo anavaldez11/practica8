@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+   <link rel="stylesheet" href="style.css">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Operadores</title>
+   <marquee>
+  <body> <h1>
+  <p>Esta página muestra operadores <BR>
+    </marquee>
+  
+  
+  <script type="text/javascript">
+    var valores = [true, 5, false, "hola", "adios", 2];
+
+    // Combinar valores booleanos
+    var valor1 = valores[0];
+    var valor2 = valores[2];
+
+    // Obtener un resultado TRUE
+    var resultado = valor1 || valor2;
+    document.write("1.Respuesta 1: " + resultado + "<br />");
+
+    // Obtener un resultado FALSE
+    resultado = valor1 && valor2;
+    document.write("2.Respuesta2: " + resultado + "<br />");
+
+    // Operaciones matemáticas
+    var num1 = valores[1];
+    var num2 = valores[5];
+
+    var suma = num1 + num2;
+    document.write("Suma: " + suma + "<br />");
+  var resta = num1 - num2;
+      document.write("Resta: " + resta + "<br />");
+
+      var multiplicacion = num1 * num2;
+      document.write("Multiplicación: " + multiplicacion + "<br />");
+
+      var division = num1 / num2;
+      document.write("División: " + division + "<br />");
+
+      var modulo = num1 % num2;
+      document.write("Módulo: " + modulo + "<br />");
+
+  </script>
+  </head>
+
